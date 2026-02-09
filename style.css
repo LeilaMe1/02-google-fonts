@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Electrolize', Arial, sans-serif;
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
@@ -42,6 +42,7 @@ body {
   cursor: pointer;
   padding: 1em 2em; /* Increased button size using em */
   font-size: 1.1em; /* Increased font size using em */
+  font-family: 'Electrolize', Arial, sans-serif; /* why not with global styles? */
 }
 
 .hero button:hover {
